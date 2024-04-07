@@ -1,0 +1,24 @@
+.top-agent-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.top-agent-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 13px;
+  height: 40px;
+  width: 120%;
+  margin-top: 30px;
+}
+
+.top-agent-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

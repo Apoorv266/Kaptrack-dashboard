@@ -1,0 +1,79 @@
+.agent-top-header {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  /* margin-bottom: 20px; */
+}
+
+.agent-graph-component {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-data-div {
+  height: 90vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date-select-div {
+  margin: 20px;
+}
+
+.date-select-div label {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+#dateSelect {
+  width: 150px;
+  height: 30px;
+  background-color: #151a2b;
+  color: white;
+}
+
+.back-btn {
+  height: 40px;
+  width: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 27px 0px rgba(0, 0, 0, 0.75);
+  margin-right: 10px;
+}
+
+.back-btn p {
+  margin-top: -5px;
+}
+
+.full-report {
+  height: 30px;
+  width: 250px;
+  color: white;
+  font-size: 15px;
+  background-color: #151a2b;
+  border: none;
+  margin: -5px 0 20px 0;
+  cursor: pointer;
+}
+
+.watchout-icon {
+  width: 50px;
+  margin-left: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.agent-watch-top-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: auto;
+}
+
+.agent-watch-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}

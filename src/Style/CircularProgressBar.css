@@ -1,0 +1,25 @@
+.circular-progress {
+  transform: rotate(-90deg);
+}
+
+.circular-progress-background {
+  fill: none;
+  stroke: #e0e0e0; /* Background color */
+  position: relative;
+}
+
+.circular-progress-bar {
+  fill: none;
+  stroke: #007bff; /* Progress color */
+  /* stroke-linecap: round; */
+  transition: stroke-dashoffset 0.3s ease 0s;
+}
+
+.progress-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}

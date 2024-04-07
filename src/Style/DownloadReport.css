@@ -1,0 +1,18 @@
+.download-report-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+
+.save-btn {
+  height: 30px;
+  width: 180px;
+  background-color: #71b03a;
+  margin-left: 20px;
+  color: white;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}

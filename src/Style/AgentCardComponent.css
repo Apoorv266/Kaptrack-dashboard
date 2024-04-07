@@ -1,0 +1,27 @@
+.agent-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.agent-each-card {
+  height: 100px;
+  width: 200px;
+  background-color: #151a2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+  gap: 10px;
+}
+
+.avatar-img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.agent-detail {
+  width: 40%;
+}

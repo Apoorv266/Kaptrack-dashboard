@@ -1,0 +1,18 @@
+.header-Cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* progess */
+.progress-bar-div {
+  display: flex;
+  align-items: center;
+  justify-content: "center";
+}
