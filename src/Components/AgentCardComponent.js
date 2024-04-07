@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../Style/AgentCardComponent.css";
 import { Link } from "react-router-dom";
 import { avatarImg } from "../Utility/Contants";
-// import avatarImg from "../assets/avatar.jpg";
 
 const AgentCardComponent = () => {
   const [tableRowData, setTableRowData] = useState([]);
