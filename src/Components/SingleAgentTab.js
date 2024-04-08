@@ -12,7 +12,7 @@ import {
 } from "../Utility/UtilityFunction";
 import BarChart from "./Charts/BarChart";
 import DonutChart from "./Charts/DonutChart";
-import ReactWordcloud from "react-wordcloud";
+// import ReactWordcloud from "react-wordcloud";
 import TableComponent from "./TableComponent";
 import { DashboardContext } from "../Context/DashboardContext";
 import Loader from "./Loader";
@@ -223,7 +223,7 @@ const SingleAgentTab = () => {
                   style={{ width: "99%", height: "400px", marginTop: "-17px" }}
                 >
                   <CardComponent title="Website Word cloud">
-                    <ReactWordcloud words={wordMapData} options={options} />
+                    {/* <ReactWordcloud words={wordMapData} options={options} /> */}
                   </CardComponent>
                 </div>
 
